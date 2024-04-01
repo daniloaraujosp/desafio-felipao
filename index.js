@@ -7,16 +7,7 @@ console.log("Olá, " + nomeUsuario + "! Vamos ver em qual nível você esta? ")
 
 let estrelas = 100;
 let nivel = "nível"
-/*
-let nivelFerro = "Ferro"
-let nivelBronze = "Bronze"
-let nivelPrata = "Prata"
-let nivelOuro = "Ouro"
-let nivelPlatina = "Platina"
-let nivelAscendente = "Ascendente"
-let nivelImortal = "Imortal"
-let nivelRadiante = "Radiante"
-*/
+
 
 if (estrelas <= 1000) {
     nivel = "Ferro"
