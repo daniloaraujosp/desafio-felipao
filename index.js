@@ -1,11 +1,16 @@
-console.log("Seja bem-vindo(a) ao Desafio Nível de Herói.")
-console.log("Identificando usuário...")
+console.clear() // Limpar o console
+
+console.log("-------------------------------------------\n")
+console.log("Seja bem-vindo(a) ao Desafio Nível de Herói.\n")
+console.log("-------------------------------------------\n")
+
+console.log("Identificando usuário...\n")
 
 let nomeUsuario = "Danilo"
 
-console.log("Olá, " + nomeUsuario + "! Vamos ver em qual nível você esta? ")
+console.log("Olá, " + nomeUsuario + "! Vamos ver em qual nível você esta? \n")
 
-let estrelas = 10001;
+let estrelas = 5800
 
 if (estrelas <= 1000) {
     nivel = "Ferro"
@@ -39,7 +44,13 @@ else {
     nivel = "Radiante"
 }
 
-console.log(nomeUsuario + ", você tem " + estrelas + " estrelas e está no nível " + nivel + ".")
+console.log("Parabéns, " + nomeUsuario + "! Você tem " + estrelas + " estrelas e está no nível " + nivel + ".\n")
+
+console.log("-------------------------------------------")
+console.log("Nome: " + nomeUsuario)
+console.log("Estrelas: " + estrelas)
+console.log("Nível: " + nivel)
+console.log("-------------------------------------------\n")
 
 
 
