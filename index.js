@@ -6,8 +6,6 @@ let nomeUsuario = "Danilo"
 console.log("Olá, " + nomeUsuario + "! Vamos ver em qual nível você esta? ")
 
 let estrelas = 10001;
-let nivel = "nível"
-
 
 if (estrelas <= 1000) {
     nivel = "Ferro"
