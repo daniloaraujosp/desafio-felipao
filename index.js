@@ -5,7 +5,7 @@ let nomeUsuario = "Danilo"
 
 console.log("Olá, " + nomeUsuario + "! Vamos ver em qual nível você esta? ")
 
-let estrelas = 100;
+let estrelas = 10001;
 let nivel = "nível"
 
 
@@ -37,7 +37,7 @@ else if (estrelas >= 9001 && estrelas <= 10000) {
     nivel = "Imortal"
 }
 
-else if (estrelas >= 10001) {
+else {
     nivel = "Radiante"
 }
 
